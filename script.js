@@ -1,14 +1,11 @@
 function firstWord(s) {
   // your code here
-	if (s === '' || !s.includes(' ')) {
-    return s;
-  }
+	if (!str || str.indexOf(' ') === -1) {
+        return str;
+    }
 
-  // Extract the first word up to the first space
-  const firstSpaceIndex = s.indexOf(' ');
-  const result = s.substring(0, firstSpaceIndex);
-
-	return result;
+    // Extract the first word by using substring and indexOf
+    return str.substring(0, str.indexOf(' '));
 }
 
 // Do not change the code below
