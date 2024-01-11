@@ -1,11 +1,11 @@
 function firstWord(s) {
   // your code here
-	if (!str || str.indexOf(' ') === -1) {
-        return str;
+	if (!s || s.indexOf(' ') === -1) {
+        return s;
     }
 
     // Extract the first word by using substring and indexOf
-    return str.substring(0, str.indexOf(' '));
+    return s.substring(0, s.indexOf(' '));
 }
 
 // Do not change the code below
