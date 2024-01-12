@@ -1,11 +1,12 @@
 function firstWord(s) {
   // your code here
-	if (!s || s.indexOf(' ') === -1) {
-        return s;
-    }
+	// 
+	if(s.length===0){
+		return '';
+	}
+	let words=s.split(' ');
+	return words[0];
 
-    // Extract the first word by using substring and indexOf
-    return s.substring(0, s.indexOf(' '));
 }
 
 // Do not change the code below
